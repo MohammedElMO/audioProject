@@ -21,4 +21,7 @@
         100%{
         }
     }
+    .glow:hover{
+        filter: drop-shadow(0 0 4mm hsl(150, 100%, 66%));
+    }
 }
