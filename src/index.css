@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+.animate{
+    animation: animate 500ms forwards infinite;
+}
+    @keyframes animate {
+        50%{
+            transform: rotate(180deg) ;
+        }
+        70%{
+            transform: translateY(5px);
+        }
+        100%{
+        }
+    }
+}
